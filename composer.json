@@ -1,0 +1,31 @@
+{
+    "name": "tomalish/lapoderosatienda",
+	"description": "This is the site for the online store for online games",
+	"keywords": ["tomalish","hsilamot","la","poderosa","tienda","react","development"],
+	"homepage": "https://lapoderosatienda.tomalish.net/",
+	"time": "2021-04-06 00:33:16",
+	"license": "All Rights Reserved",
+	"authors": [
+				{
+					"name": "Hidalgo Rionda",
+					"email": "php@hsilamot.com",
+					"homepage": "https://www.hsilamot.com",
+					"role": "Developer"
+				}
+			],
+	"support": {
+		"email": "php@hsilamot.com",
+		"source": "https://github.com/Hsilamot/LaPoderosaTienda"
+	},
+	"funding": [
+		{
+			"type": "patreon",
+			"url": "https://www.patreon.com/Hsilamot"
+		}
+	],
+	"require" : {
+		"php" : "^7.4",
+		"tomalish/nucoke": "dev-hidalgo_dev"
+	},
+	"minimum-stability" : "dev"
+}

@@ -1,0 +1,135 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "80ce7b4c61e050544e8c8f8a4f4b045e",
+    "packages": [
+        {
+            "name": "firebase/php-jwt",
+            "version": "v5.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "f42c9110abe98dd6cfe9053c49bc86acc70b2d23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f42c9110abe98dd6cfe9053c49bc86acc70b2d23",
+                "reference": "f42c9110abe98dd6cfe9053c49bc86acc70b2d23",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/firebase/php-jwt/issues",
+                "source": "https://github.com/firebase/php-jwt/tree/v5.2.1"
+            },
+            "time": "2021-02-12T00:02:00+00:00"
+        },
+        {
+            "name": "tomalish/nucoke",
+            "version": "dev-hidalgo_dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hsilamot/NuCoKe.git",
+                "reference": "13f4d76b59e23118cd0073a97e72172941fe9365"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hsilamot/NuCoKe/zipball/13f4d76b59e23118cd0073a97e72172941fe9365",
+                "reference": "13f4d76b59e23118cd0073a97e72172941fe9365",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^5.2",
+                "php": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tomalish\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-NC-SA-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Hidalgo Rionda",
+                    "email": "php@hsilamot.com",
+                    "homepage": "https://www.hsilamot.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This package contains the main development core for Tomalish projects",
+            "homepage": "https://nucoke.tomalish.net/",
+            "keywords": [
+                "development",
+                "hsilamot",
+                "nucoke",
+                "package",
+                "tomalish"
+            ],
+            "support": {
+                "email": "php@hsilamot.com",
+                "issues": "https://github.com/Hsilamot/NuCoKe/issues",
+                "source": "https://github.com/Hsilamot/NuCoKe"
+            },
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/Hsilamot",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-03-15T04:36:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "tomalish/nucoke": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

@@ -1,0 +1,13 @@
+DirectoryIndex index.html index.php
+RewriteEngine on
+RewriteBase /
+RewriteCond "%{REQUEST_URI}" "!^/index.php"
+RewriteCond "%{REQUEST_URI}" "^/api"
+RewriteRule ^.+$ /index.php [L]
+#RewriteCond %{REQUEST_URI} !^/index.php
+#RewriteCond %{REQUEST_URI} !^/index.html
+#RewriteRule ^.+$ /index.html [L]
+
+# Handle Authorization
+RewriteCond %{HTTP:Authorization} ^(.+)$
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
